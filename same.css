@@ -1,0 +1,384 @@
+* {box-sizing:border-box;}
+
+body{margin:0;}
+
+.shopname{
+	font:65px Lucida Console,Prestige Elite Std;
+	text-shadow:2px 1px 4px rgb(84,84,82);
+	text-align:center;
+	padding: 12px;
+}
+
+.coffeetitle{
+	font:50px Lucida Console,Prestige Elite Std;
+	color:#920711;
+	text-align:center;
+	font-weight:bold;
+	font-style:italic;
+	padding:20px;	
+}
+
+.arttitle{
+	font:50px Lucida Console,Prestige Elite Std;
+	color:#174f4c;
+	text-align: center;
+	font-weight:bold;
+	font-style:italic;
+	padding:20px;
+}
+
+h2{
+	font: 26px Lucida Console,Lucida Sans Console, Courier New;
+	text-align:center;
+	color:#e0cc90;
+	padding:12px;
+	font-weight:bold;
+}
+
+h3{
+	font: 21px Lucida Console, Lucida Sans Console, Courier New;
+	text-align:center;
+	font-weight:bold;
+}
+
+h4{
+	font:15px Lucida Console, Lucida Sans Console, Courier New;
+	color:#545452;
+	font-weight:bold;
+	line-height:1.8;
+}
+
+.pcoffee{
+	font:14px Lucida Console, Lucida Sans Console, Courier New;
+	color:#920711;
+	line-height:2;
+	text-align: center;
+	padding:10px;
+}
+
+.part{
+	font:14px Lucida Console,Lucida Sans Console, Courier New;
+	line-height:1.6;	
+	text-align:justify;
+	font-weight:bold;
+}
+
+.pevents{
+	font:14px Lucida Console,Lucida Sans Console, Courier New;
+	line-height:1.6;
+	text-align: left;
+	column-count:2;
+}
+
+.navtitle{
+	font: 23px Lucida Console,Lucida Sans Console, Courier New;	
+	text-align:left;
+	font-weight:bold;
+	margin:5px;
+}
+
+.navleft{
+	float:left;
+	width:16%;
+	border:7px solid #f5e8c1;
+	height:365px;
+	margin:4px;
+}
+
+.navpics{
+	float:left;
+	width:41%;
+	height:358px;
+	margin:2px;
+}
+
+.clearfix0::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*Navigation bar*/
+ul{  
+	list-style-type: none;
+	margin-left:8px;
+}
+
+li{padding-bottom:6px;}
+
+a.one{
+	font-family: Lucida Console,Lucida Sans Console,Courier New;	
+	color:#920711;
+	font-weight:bold;
+	font-size:16px;	
+	text-decoration:none;	
+}
+
+a.one:hover {
+	font-size:110%;	
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+a.two{
+	font-family:Lucida Console, Lucida Sans Console,Courier New;	
+	color:#2a827e;
+	font-weight:bold;
+	font-size:16px;
+	text-decoration:none;	
+}
+
+a.two:hover {
+	font-size:110%;
+	font-weight:bold;
+	text-decoration:underline;
+}	
+/*End Navigation Bar*/
+
+
+
+/*About Us Pics*/
+.imgaboutusleft{
+	float:left;
+	height:907px;
+	width:32%;
+	/*border: 1px solid black;*/
+}
+
+.imgaboutusright{
+	float:left;
+	height:907px;
+	width:32%;
+	/*border: 1px solid black;*/
+}
+
+.content{
+	float:left;
+	height:907px;
+	width:36%;
+	/*border: 1px solid black;*/
+	text-align: center;
+	padding-top:50px;
+}
+
+.clearfix1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*Menu page*/
+table,th,td{	
+	font:14px Lucida Console,Courier New;
+	color:#920711;
+	/*border: 1px solid black;*/
+	padding:8px;
+}
+
+th{
+	font-weight:bold;
+	font-size:20px;
+	height:40px;
+}
+
+.imgmenu{
+	float:left;
+	width:50%;
+}
+
+.clearfix2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*About Art Page*/
+.textart{
+	float:left;
+	width:50%;
+	padding:40px;
+	height:500px;
+}
+
+.tools{
+	float:left;	
+	width:50%;
+	height:500px;
+	padding-top:60px;
+	padding-left:60px;
+}
+
+.clearfix3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.camera{
+	float:left;
+	width:50%;
+	height:700px;
+	background-image:url("Images/ART/ART HOME PAGE/2.jpg");
+	background-repeat:no-repeat;
+}
+
+.camera:hover{
+	transform:scale(1.1,1.1);
+	transition: transform 2s;
+}
+
+.brushes{
+	float:left;	
+	width:50%;
+	height:700px;
+	background-image:url("Images/ART/ART HOME PAGE/3.jpg");	
+	background-repeat:no-repeat;
+}
+
+.brushes:hover{
+	transform:scale(1.1,1.1);
+	transition: transform 2s;
+}
+
+.clearfix4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*Gallery Page*/
+.div1{height:1000px;}
+
+.div2{height:1390px;}
+
+.div3{height:1470px;}
+
+.img{display:inline-block;}
+
+.picright{
+	float:left;
+	width:50.50%;
+}
+
+.first{
+	float:left;
+	width:49.50%;
+	background-image:url("Images/ART/COLOR BLOCK COLLECTION/pexels-alena-koval-886521.jpg");
+	background-repeat:no-repeat;
+}
+
+.second{
+	float:left;
+	width:49.50%;
+	background-image:url("IMAGES/ART/PAINTING ABSTRACT COLLECTION/pexels-steve-johnson-1548111.jpg");
+	background-repeat:no-repeat;
+}
+
+.third{
+	float:left;
+	width:49.50%;
+	background-image:url("IMAGES/ART/BLACK AND WHITE PPL COLLECTION/pexels-elina-krima-3317936.jpg");
+	background-repeat:no-repeat;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.artist1{
+	width:500px;
+	height:450px;
+	margin:20px;
+	margin-left:110px;
+	margin-top:90px;
+	color:#479c75;
+}
+
+.artist2{
+	width:500px;
+	height:450px;
+	margin-left:110px;
+	margin-top:20px;
+	color:#114988;
+}
+.artist3{
+	width:400px;
+	height:400px;
+	margin-left:160px;
+	margin-top:10px;
+	color:#828080;
+}
+
+/*Events & Workshop page*/
+.event1{height:500px;}
+
+.event2{height:500px;}
+
+.eventpics{display:inline-block;}
+
+.digital{
+	display:inline-block;
+	width:400px;
+	height:400px;
+	color:#b75389;
+	padding:15px;
+}
+
+.photo{
+	display:inline-block;
+	width:400px;
+	height:400px;
+	color:#919ba6;
+	padding:15px;
+}
+/*End Events&Workshop Page*/
+
+.footertext{
+  float: left;
+  width: 33.33%;
+  height: 80px; 
+  text-align:center;
+  padding:10px;
+  color:#545452;
+}
+
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#phomepg{
+	position:absolute;
+	top:5px;
+	left:10px;
+	background-color:#adadaa; 
+	font:15px Lucida Sans Console, Prestige Elite Std, Courier New;
+	color:white; 	
+	cursor:pointer; 
+	padding:7px;	
+}
+
+#phomepg:hover {background-color:#555;}
+
+#myBtn {
+	position:relative;
+	left:10px;
+	bottom: 13px;	
+	z-index:99; 
+	border:none;  
+	background-color:#969693; 
+	font:15px Lucida Sans Console, Prestige Elite Std, Courier New;
+	color:white; 	
+	cursor:pointer; 
+	padding:7px;
+	font-size:15px; 
+}
+
+#myBtn:hover {background-color: #555;}
